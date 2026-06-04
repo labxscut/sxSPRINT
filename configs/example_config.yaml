@@ -1,0 +1,20 @@
+data:
+  # CSV files may include a sample_id column. If sample_id is absent,
+  # rows are aligned by order.
+  snp_path: data/example/snp.csv
+  prs_path: data/example/prs.csv
+  label_path: data/example/labels.csv
+  label_column: label
+
+training:
+  test_size: 0.20
+  validation_size: 0.20
+  random_state: 42
+  epochs: 30
+  batch_size: 128
+  learning_rate: 0.001
+  patience: 8
+
+output:
+  output_dir: results/example_run
+  save_model: true

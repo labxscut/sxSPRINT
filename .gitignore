@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Do not upload individual-level UK Biobank data or large derived matrices.
+*.pkl
+*.npy
+*.npz
+*individual_predictions*.csv
+data/raw/
+data/processed/
+models/
+checkpoints/
+*.pth
+*.pt
+
+# Local logs and temporary outputs.
+logs/
+tmp/
+*.log
+results/example_run/
+results/run/
