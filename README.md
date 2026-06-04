@@ -219,17 +219,6 @@ The reusable modules are:
 - `evaluate_binary_metrics` - AUC and threshold-dependent metric calculation
 - `elastic_net_classifier` and `xgboost_classifier` - Baseline model utilities
 
-## Citation
-
-If you use SPRINT in your research, please cite our paper:
-
-```bibtex
-@article{SPRINT2026,
-  title={SPRINT: A SNP-PRS Residual Integration Model for Complex Disease Genetic Risk Prediction},
-  author={Ren, Bozhen and Yu, Zhengyang and Li, Ziyan and Duan, Hongyu and Han, Xinyu and Ning, Kaida and Chen, Yangxin and Xia, Li C.},
-  year={2026}
-}
-```
 
 ## License
 
